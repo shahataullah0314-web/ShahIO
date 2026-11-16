@@ -1,0 +1,4 @@
+# Normal build Python already includes pip. This package is needed by the
+# hardware-free serial bridge tests. Bundled app dependencies are separately
+# locked in vendor/runtime-requirements.txt and installed by prepare-python.py.
+pyserial==3.5

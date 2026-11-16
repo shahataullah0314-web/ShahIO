@@ -1,0 +1,33 @@
+# Build products and downloaded runtimes are release assets, not source files.
+node_modules/
+dist/
+release/
+.pio/
+vendor/python/
+vendor/git/
+vendor/.python-build-*/
+ui/editor-bundle.js
+ui/terminal-bundle.js
+ui/xterm.css
+
+# Local project state, Python caches, and credentials.
+.shahio/
+.embosser-control/
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.pfx
+*.p12
+*.log
+*.tmp
+*.bak
+*.exe
+*.dll
+*.pyd
+.DS_Store
+Thumbs.db
+desktop.ini
